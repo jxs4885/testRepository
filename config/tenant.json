@@ -1,0 +1,66 @@
+{
+  "title": "AccessOne",
+  "name": "AccessOne",
+  "brand": "Fiserv",
+  "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/AccessOne/develop/assets/images/Fiserv_Logo.jpg",
+  "getStartedFilePath": "/docs/getting-started.md",
+  "solution": ["merchants","carat"],
+  "brandDescription": "The AccessOne API Suite provides a modern interface for Fiserv's Full Service Processing ISO clients.  Relevant functions are included for Merchant Inquiry, Maintenance, Boarding, and Reporting.",
+  "categories": [
+    {
+      "name": "businessTypes",
+      "value": "Business Types",
+      "subcategories": [
+        {
+          "name": "enterprise",
+          "value": "Enterprise"
+        }
+      ]
+    }
+  ],
+  
+  "apiVersions": [
+      {
+        "version": "1.0.0",
+        "versionType": "minor",
+        "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
+        "apiSpecFileNames": ["AccessOne-API-Spec-v1-00-07"]
+      },
+      {
+        "version": "2.0.0",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-2.0.0.md",
+        "apiSpecFileNames": ["AccessOneAM-v2-00-00", "AccessOneNorthBoarding-v2-00-00", "AccessOneReporting-v2-00-00"]
+      }
+  ],
+  "product": {
+    "featured": true,
+    "logoURL": "https://raw.githubusercontent.com/Fiserv/AccessOne/develop/assets/images/AccessOne.png",
+    "description": "Provide API access for boarding, inquiry, maintenance, and reporting.",
+    "longDescription":"AccessOne APIs provide real-time access to our backend systems of record for boarding, inquiry, maintenance, and reporting.  These APIs are available for use by our full service processing ISO clients.",
+    "apiSpecification": "/v1/apis/AccessOne",
+    "layout": "/v1/layouts/AccessOne",
+    "documentation": "/v1/docs/AccessOne",
+    "documenttree": "/v1/docs/AccessOne",
+    "documenttreeV2": "/v2/docs/AccessOne",
+    "sandbox": "/v1/sandboxrun/AccessOne",
+    "feature":[
+      {
+        "name": "sandBox",
+        "value": true
+      },
+      {
+        "name": "plugins",
+        "value": false
+      },
+      {
+        "name": "industryOptionsAPIExplorer",
+        "value": false
+      },
+      {
+        "name": "editParameterAPIExplorer",
+        "value": false
+      }
+  ]
+  }
+}
